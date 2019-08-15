@@ -1,0 +1,21 @@
+/* Card */
+.model-card {
+  max-width:98%;
+  margin:16px 0;
+}
+
+@media screen and (min-width:768px){
+  .model-card {
+    max-width: 29%;
+  }
+}
+
+.model-card-container {
+  max-width: 960px;
+  margin:0 auto;
+  display:flex;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-direction:row;
+  flex-wrap: wrap;
+}
