@@ -2,11 +2,8 @@
 .model-card {
   max-width:98%;
   margin:16px 0;
-}
-
-@media screen and (min-width:768px){
-  .model-card {
-    max-width: 29%;
+  @media screen and (min-width:768px){
+    max-width:29%;
   }
 }
 

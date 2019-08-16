@@ -1,0 +1,17 @@
+<section class="model-card-container">
+  <mat-card *ngFor="let model of Models" class="model-card">
+    <img mat-card-image src="{{ model.meta_fields.featured_image }}">
+    <mat-card-header>
+      <mat-card-title-group>
+        <mat-card-title>{{ model.title.rendered }}</mat-card-title>
+        <mat-card-subtitle>{{ model.category_name }}</mat-card-subtitle>
+      </mat-card-title-group>
+    </mat-card-header>
+    <mat-card-content>
+      <span></span>
+    </mat-card-content>
+    <mat-card-footer>
+      <mat-card-actions></mat-card-actions>
+    </mat-card-footer>
+  </mat-card>
+</section>
